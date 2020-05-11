@@ -1,0 +1,63 @@
+
+.topText{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	margin: 35rpx 0;
+}
+.topText>image{
+	width: 120rpx;
+	height: 100rpx;
+}
+.topText>view>text{
+	font-size: 60rpx;
+}
+.topText>view>view{
+	font-size: 28rpx;
+}
+.shouBanner{
+	text-align: center;
+	margin-bottom:50rpx ;
+}
+.shouBanner>image{
+	width: 680rpx;
+}
+.shouBanner>image{
+	border-radius: 30rpx;
+}
+.lively{
+	padding: 0 50rpx;
+}
+.liveText{
+	line-height: 70rpx;
+}
+.liveText>text{
+	font-size: 45rpx;
+}
+.liveText>view{
+	font-size: 30rpx;
+}
+.liveBox{
+	width: 670rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	margin: 30rpx 0;
+}
+.liveBox::-webkit-scrollbar {
+	display: none;
+}
+
+

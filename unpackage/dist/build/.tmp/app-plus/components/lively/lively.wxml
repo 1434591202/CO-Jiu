@@ -1,0 +1,1 @@
+<view class="liveBoxT" style="{{('background-color:'+bgColor)}}"><text>{{Eng}}</text><text>{{china}}</text></view>

@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "欢迎您"
+			}
+		},
+		{
+			"path": "pages/shouye/shouye",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/catelog/catelog",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		}
+	    ,{
+            "path" : "pages/list/list",
+            "style" : {
+				"navigationBarTitleText": "分类详情"
+			}
+        }
+        ,{
+            "path" : "pages/commodity/commodity",
+            "style" : {
+				
+			}
+        }
+		,{
+		    "path" : "pages/my/my",
+		    "style" : {
+				"navigationBarTitleText": "我的"
+			}
+		}
+        ,{
+            "path" : "pages/plaza/plaza",
+            "style" : {
+				"navigationBarTitleText": "达人广场"
+			}
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" : {
+				"navigationBarTitleText": "我的收藏"
+			}
+        }
+    ],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#e83c4e",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "fontSize" : "8px",
+	    "iconWidth" : "10px",
+	    "list": [{
+	        "pagePath": "pages/shouye/shouye",
+	        "iconPath": "static/xiabiao/home.png",
+	        "selectedIconPath": "static/xiabiao/home-hover.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/catelog/catelog",
+	        "iconPath": "static/xiabiao/order.png",
+	        "selectedIconPath": "static/xiabiao/order-hover.png",
+	        "text": "分类"
+	    }, {
+		    "pagePath": "pages/plaza/plaza",
+		    "iconPath": "static/xiabiao/my.png",
+		    "selectedIconPath": "static/xiabiao/my-hover.png",
+		    "text": "广场"
+		}, {
+		    "pagePath": "pages/my/my",
+		    "iconPath": "static/xiabiao/my.png",
+		    "selectedIconPath": "static/xiabiao/my-hover.png",
+		    "text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

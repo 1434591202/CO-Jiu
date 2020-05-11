@@ -1,0 +1,1 @@
+<view><image class="bgImg" src="../../static/beijing/shouyeBg.jpg"></image><view class="bgBox"><text>鸡尾酒的世界欢迎你</text><view data-event-opts="{{[['tap',[['skip',['$event']]]]]}}" bindtap="__e">立即前往</view></view></view>

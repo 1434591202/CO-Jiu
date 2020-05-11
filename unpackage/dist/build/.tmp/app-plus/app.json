@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shouye/shouye",
+    "pages/catelog/catelog",
+    "pages/list/list",
+    "pages/commodity/commodity"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#e83c4e",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "fontSize": "8px",
+    "iconWidth": "10px",
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "iconPath": "static/xiabiao/home.png",
+        "selectedIconPath": "static/xiabiao/home-hover.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/catelog/catelog",
+        "iconPath": "static/xiabiao/order.png",
+        "selectedIconPath": "static/xiabiao/order-hover.png",
+        "text": "分类"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "鸡尾酒世界",
+  "compilerVersion": "2.6.1",
+  "usingComponents": {}
+}

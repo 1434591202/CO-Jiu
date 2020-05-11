@@ -1,0 +1,1 @@
+<view class="classics" style="{{('border: 1rpx solid'+brColor)}}"><image src="{{img}}"></image><view><text>{{china}}</text><text>{{Eng}}</text></view></view>

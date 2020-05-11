@@ -1,0 +1,1 @@
+<view><view class="topImg"><image src="{{baseList.img}}"></image><view class="graD"><view>{{baseList.hao}}</view><view>{{baseList.graded}}</view></view></view><view class="baseIBox"></view></view>
